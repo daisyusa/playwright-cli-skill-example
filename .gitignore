@@ -1,0 +1,15 @@
+node_modules/
+test-results/
+playwright-report/
+
+# Playwright CLI browser snapshots and console logs
+.playwright-cli/
+
+# Skills installed locally by playwright-cli install --skills
+.claude/
+.agents/skills/playwright-cli/
+
+# One-off screenshots from manual exploration
+/advisor-*-profile.png
+/cruiseone-*.png
+/todomvc-*.png
